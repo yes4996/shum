@@ -34,7 +34,7 @@ void addEmployee(Employee employees[], int &count) {
     cin >> emp.id;
     cin.ignore(); // flush newline character
 
-    cout << "Enter employee name: ";
+    cout << "Enter employee street name: ";
     getline(cin, emp.name);
 
     cout << "Enter employee position: ";
@@ -395,6 +395,7 @@ int main() {
         current = current->next;
         delete temp;
     }
+
     
     return 0;
 }
